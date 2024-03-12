@@ -5,7 +5,7 @@ programa {
     inteiro maior = 0
 
     para (i = 0; i < 8; i++){
-      escreva("Qual o valor do índice: ",i,"?\n")
+      escreva("Qual o valor do Ã­ndice: ",i,"?\n")
       leia(n[i])
     }
 
@@ -15,7 +15,7 @@ programa {
     }
     }
 
-  escreva("O maior valor é: ", maior)
+  escreva("O maior valor Ã©: ", maior)
 
   }
 }
