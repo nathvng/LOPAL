@@ -1,8 +1,8 @@
 
-/*  DescriÁ„o:
+/*  Descri√ß√£o:
  * 
- * 	Este exemplo ilustra o uso do laÁo "faca-enquanto", simulando uma eleiÁ„o entre 
- * 	dois candidatos. O exemplo ilustra tambÈm o uso do comando "escolha" para contabilizar
+ * 	Este exemplo ilustra o uso do la√ßo "faca-enquanto", simulando uma elei√ß√£o entre 
+ * 	dois candidatos. O exemplo ilustra tamb√©m o uso do comando "escolha" para contabilizar
  * 	os votos de cada candidato.
  * 	
  *  Autor: Leandro Gaudio Rosa
@@ -25,7 +25,7 @@ programa
 
     cadeia candidato1, candidado2
       
-      escreva("Quantos candidatos ter„o?")
+      escreva("Quantos candidatos ter√£o?")
       leia(qtdcand)
 
 se (qtdcand < 2){
@@ -43,8 +43,8 @@ senao {
       escreva("\nPara ", candidato1, ":digite 1\n")
       escreva("\nPara " , candidado2 , ":digite 2\n")
       escreva("\nPara voto branco: digite 3\n")
-			escreva("\nQualquer n˙mero diferente de 1, 2 e 3 anular· o seu voto\n")
-      escreva("\nVote quantas vezes desejar, apÛs isso, clique 0 para seus votos serem enviados!\n")
+			escreva("\nQualquer n√∫mero diferente de 1, 2 e 3 anular√° o seu voto\n")
+      escreva("\nVote quantas vezes desejar, ap√≥s isso, clique 0 para seus votos serem enviados!\n")
 			escreva("Digite seu voto: ")
 			leia(voto)
 			limpa()
@@ -65,7 +65,7 @@ senao {
 			 	pare
 			 	
 			 	caso contrario:
-			 		nulos = nulos + 1 // OpÁ„o inv·lida. Soma um voto nulo
+			 		nulos = nulos + 1 // Op√ß√£o inv√°lida. Soma um voto nulo
 			}			 
 		
     }enquanto(voto != 0)
@@ -91,9 +91,9 @@ senao {
 			escreva("Nulos: ", nulos, " voto(s). ", porcentagem_nulos, " % do total\n")
 		}
 
-    escreva("Deseja realizar uma nova eleiÁ„o?")
-    escreva("\n1.SIM\n 2.N√O")
-    escreva("\nEscolha uma opÁ„o:")
+    escreva("Deseja realizar uma nova elei√ß√£o?")
+    escreva("\n1.SIM\n 2.N√ÉO")
+    escreva("\nEscolha uma op√ß√£o:")
     leia(novamente)
 
     se (novamente == 1){
