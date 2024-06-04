@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-06 10:31:35 "/>
+        <attribute name="created" value="QWx1bm87TElNMDMtTjA2OzIwMjQtMDItMDY7IjA5OjU5OjQxICI7MjI2MA=="/>
+        <attribute name="edited" value="QWx1bm87TElNMDMtTjA2OzIwMjQtMDItMDY7IjEwOjMxOjM1ICI7MTsyMzUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1" type="Real" array="False" size=""/>
+            <declare name="N2" type="Real" array="False" size=""/>
+            <declare name="N3" type="Real" array="False" size=""/>
+            <declare name="N4" type="Real" array="False" size=""/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="N1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero: &quot;" newline="True"/>
+            <input variable="N2"/>
+            <output expression="&quot;Digite o terceiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="N3"/>
+            <output expression="&quot;Digite o quarto n&#250;mero: &quot;" newline="True"/>
+            <input variable="N4"/>
+            <assign variable="soma" expression="N1 + N2 + N3 + N4"/>
+            <output expression="&quot;A soma dos n&#250;meros &#233; igual a: &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
